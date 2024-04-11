@@ -36,18 +36,6 @@ def main():
         else:
             option == '3';
             break
-        # else:
-        #     print("Invalid option, please try again.")
-        # password = input("Enter your 8-digit password: ")
-        # if len(password) != 8 or not password.isdigit():
-        #     print("Invalid password format. Please enter an 8-digit password containing only integers.")
-        # else:
-        #     break
-
-    # encoded_password = encode_password(password)
-    #
-    # print("Encoded password:", encoded_password)
-
 
 if __name__ == "__main__":
     main()
