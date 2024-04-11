@@ -1,3 +1,5 @@
+
+#Andres
 def encode_password(password):
     encoded_password = ""
     for digit in password:
@@ -5,6 +7,7 @@ def encode_password(password):
         encoded_password += encoded_digit
     return encoded_password
 
+#Tyler
 def decode(encoded_password):
     original_password = ""
     for char in encoded_password:
